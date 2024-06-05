@@ -17,3 +17,5 @@ The model is made to classify waste object into nine different classes:
 7. Plastic
 8. Textile trash
 9. Vegetation
+
+**Link to dataset:** https://www.google.com/url?q=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fjoebeachcapital%2Frealwaste%2Fdata
