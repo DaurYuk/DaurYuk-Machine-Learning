@@ -6,7 +6,7 @@ Team C241-PS480
 
 ## About the Model
 
-The model is made to classify waste object into nine different classes:
+The model is made to classify waste object into eight different classes:
 
 1. Cardboard
 2. Food organics
@@ -16,6 +16,5 @@ The model is made to classify waste object into nine different classes:
 6. Paper
 7. Plastic
 8. Textile trash
-9. Vegetation
 
-**Link to dataset:** https://www.kaggle.com/datasets/joebeachcapital/realwaste/data
+**Link to dataset (zip file):** https://drive.google.com/file/d/1UZxOdmBwnuSxE93Arhm8La0WKKqodS28/view?usp=sharing
