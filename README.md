@@ -37,5 +37,30 @@ The model is made to classify waste object into eight different classes:
 
 We use MobileNetV2, which has been trained on ImageNet, as the base model. In an effort to improve the accuracy, we also retrain the last half layers of the base model and add more layers in addition to the base model.
 
-Image below is the final architecture of our model:
-<img src="https://drive.google.com/uc?id=1XyuCsJ7wrk_yuI9hjEy6m4ACTnGV3byA" alt="Model architecture"></img>
+<details> 
+  <summary> Image below is the final architecture of our model: </summary>
+  <img src="https://drive.google.com/uc?id=1XyuCsJ7wrk_yuI9hjEy6m4ACTnGV3byA" alt="Model architecture"></img>
+</details>
+<br>
+
+With this model, we manage to achieve 92% testing accuracy with details below.
+
+```Text
+                     precision    recall  f1-score   support
+
+          Cardboard       0.89      0.95      0.92       275
+      Food Organics       0.95      0.99      0.97       377
+              Glass       0.93      0.96      0.94       491
+              Metal       0.93      0.85      0.88       308
+Miscellaneous Trash       0.95      0.85      0.90       274
+              Paper       0.92      0.91      0.91       321
+            Plastic       0.86      0.89      0.87       343
+      Textile Trash       0.97      0.96      0.97       365
+
+           accuracy                           0.92      2754
+          macro avg       0.92      0.92      0.92      2754
+       weighted avg       0.92      0.92      0.92      2754
+```
+
+This confusion matrix provides a clear picture of how well the model performs on a test dataset, going beyond simple accuracy.
+<img src="https://drive.google.com/uc?id=11jvDdlU5rktOK6gi03eKRkFiLZ6ejW_r" alt="Confusion matrix of testing result"></img>
